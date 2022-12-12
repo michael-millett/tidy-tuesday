@@ -2,7 +2,7 @@
 # Script Name:      heatmap_nyc_tidy_tuesday
 # Purpose:          Geometrically represent passenger elevators in NYC
 # Author:           Michael Millett
-# Date Created:     2022-12-11
+# Date Created:     2022-12-12
 
 # License: MIT License 2022 Michael Millett
 # Email: mcmillett.extra@gmail.com
@@ -72,17 +72,23 @@ plot_nyc <- ggplot() +
                    group = group,
                    fill = total_elevators),
                color = "white",
-               linewidth = 0.2) +
+               size = 0.2) +
   theme_void() +
   coord_map() +
   scale_fill_viridis_c() +
   labs(title = "Heatmap of Passenger Elevators in New York City",
-       subtitle = "Regions Separated by Zip Code",
+       subtitle = "Regions Separated by Zip Code<br>",
        fill = "**Number of<br>Elevators**",
-       caption = "Data: Elevators Pkg by Emil Hvitfeldt & NYC Open Data | Graphic by: Michael Millett") +
+       caption = "Data: Elevators Package by Emil Hvitfeldt & NYC Open Data | Graphic by Michael Millett") +
   theme(plot.title = element_markdown(face = "bold", size = 16),
-        plot.subtitle = element_markdown(color = "grey50", size = 10),
-        legend.title = element_markdown(),
-        plot.caption = element_markdown(color = "grey50", size = 8, vjust = 10))
+        plot.subtitle = element_markdown(color = "grey50", size = 10, lineheight = 0.5),
+        legend.title = element_markdown(hjust = 0.5),
+        plot.caption = element_markdown(color = "grey50", size = 8, hjust = 1),
+        plot.margin = margin(t = 20, r = 30, b = 20, l = 30, unit = "pt"),
+        panel.background = element_rect(fill = "white", colour = "grey50", size = 0.8))
 
 plot_nyc
+
+p_unload(all)
+rm(list=ls())
+graphics.off()
