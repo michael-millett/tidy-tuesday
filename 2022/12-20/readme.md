@@ -1,2 +1,2 @@
 
-[[picture_rainfall_graphic.png]]
+[[picture_krig_heatmap.png]]
