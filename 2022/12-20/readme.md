@@ -1,2 +1,2 @@
 
-[[picture_krig_heatmap.png]]
+![Krig Heatmap of US Rainfall](picture_krig_heatmap.png)
