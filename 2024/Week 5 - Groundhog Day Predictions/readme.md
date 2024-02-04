@@ -8,3 +8,7 @@ We attempted to provide weather data to accompany this dataset, but so far we've
 Watch for a follow-up dataset in the future!
 
 Note: "Oil Springs Ollie" (groundhog #55) has been succeeded by "Heaven's Wildlife Harvey" (groundhog #70).
+
+# My Plot
+
+![Groundhog Day Predictions](groundhog_plot.png)
