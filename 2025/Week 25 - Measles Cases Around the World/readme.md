@@ -15,9 +15,8 @@ the World Health Organisation [Provisional monthly measles and rubella data](htt
 The [measles outbreak in the USA](https://abcnews.go.com/Health/measles-cases-reach-1046-us-infections-confirmed-30/story?id=122108194) 
 has been the subject of much media coverage in the past few months, however, [measles continues to be a threat across the world](https://www.cdc.gov/global-measles-vaccination/data-research/global-measles-outbreaks/index.html)
 
-- How have global measles cases changed over time?
-- Which regions or countries consistently report the highest measles burden?
-- Are there seasonal patterns in measles outbreaks across different regions?
-- Does the ratio of laboratory-confirmed cases to total cases reveal differences in healthcare capacity across countries?
-
 Thank you to [Jen Richmond (R-Ladies Sydney)](https://github.com/jenrichmond) for curating this week's dataset.
+
+# Plot
+
+![Measles Cases Plot](measles_plot.png)
