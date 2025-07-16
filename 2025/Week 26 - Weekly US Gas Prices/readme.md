@@ -9,3 +9,7 @@ Diesel price methodology:
 > "Every Monday, cash self-serve on-highway diesel prices (including taxes) are collected from a sample of approximately 590 retail diesel outlets in the continental United States. The sample includes a combination of truck stops and service stations that sell on-highway diesel fuel. The data represent the price of ultra low sulfur diesel (ULSD), which contains less than 15 parts-per-million sulfur. All collected prices are subjected to automated edit checks during data collection and data processing. Data flagged by the edits are verified with the respondents. Imputation is used for companies that cannot be contacted and for reported prices that are extreme outliers. The average survey response rate for 2020 was 98%. Average national and regional prices are released around 5:00 p.m. ET on Mondays, except on government holidays, in which case the data are released on Tuesday (but still represent Monday's price)."
 
 Thank you to [Jon Harmon, Data Science Learning Community](https://github.com/jonthegeek) for curating this week's dataset.
+
+# PLOT
+
+![Fuel Prices Plot](fuel_prices.png)
